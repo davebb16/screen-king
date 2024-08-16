@@ -17,7 +17,7 @@ function Jokes() {
       <p>{joke.setup}</p>
       <div>See joke:
       <input type='checkbox' /></div>
-      <p className='group-has-[input:checked]:blur-none blur-md'>{joke.punchline}</p>
+      <p className='group-has-[input:checked]:blur-none blur-sm transition-all duration-1000'>{joke.punchline}</p>
     </div>
   )
 }

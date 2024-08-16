@@ -13,7 +13,7 @@ import { createFileRoute } from '@tanstack/react-router'
 // Import Routes
 
 import { Route as rootRoute } from './routes/__root'
-./routes/jokes.lazy
+
 // Create Virtual Routes
 
 const JokesLazyImport = createFileRoute('/jokes')()
